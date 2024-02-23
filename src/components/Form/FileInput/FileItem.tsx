@@ -8,7 +8,7 @@ interface FileItemProps {
 }
 
 export function FileItem({ name, size }: FileItemProps) {
-  const state = 'error' as 'progress' | 'error' | 'complete'
+  const state = ' ' as 'progress' | 'error' | 'complete'
 
   return (
     <div
